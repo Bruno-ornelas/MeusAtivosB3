@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490CABF22A95201100571A32 /* TinyConstraints in Frameworks */ = {isa = PBXBuildFile; productRef = 490CABF12A95201100571A32 /* TinyConstraints */; };
+		490CABF62A95251A00571A32 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 490CABF52A95251A00571A32 /* HomeView.swift */; };
+		49A6B1CE2A9676F200F1A59D /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1CD2A9676F200F1A59D /* CoinModel.swift */; };
+		49A6B1D02A96770F00F1A59D /* CurrentDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1CF2A96770F00F1A59D /* CurrentDataModel.swift */; };
+		49A6B1D22A9679BF00F1A59D /* GlobalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1D12A9679BF00F1A59D /* GlobalModel.swift */; };
+		49A6B1D42A967AE700F1A59D /* GraphicDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1D32A967AE700F1A59D /* GraphicDataModel.swift */; };
+		49A6B1D62A967B0F00F1A59D /* MarketChartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1D52A967B0F00F1A59D /* MarketChartModel.swift */; };
+		49A6B1DD2A96814C00F1A59D /* CoinAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1DC2A96814C00F1A59D /* CoinAPI.swift */; };
+		49A6B1DF2A9681A500F1A59D /* StockExchangeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49A6B1DE2A9681A500F1A59D /* StockExchangeAPI.swift */; };
 		49C67B452A8AE0CB004D13E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C67B442A8AE0CB004D13E2 /* AppDelegate.swift */; };
-		49C67B472A8AE0CB004D13E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C67B462A8AE0CB004D13E2 /* SceneDelegate.swift */; };
-		49C67B492A8AE0CB004D13E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C67B482A8AE0CB004D13E2 /* ViewController.swift */; };
-		49C67B4C2A8AE0CB004D13E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C67B4A2A8AE0CB004D13E2 /* Main.storyboard */; };
+		49C67B492A8AE0CB004D13E2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C67B482A8AE0CB004D13E2 /* HomeViewController.swift */; };
 		49C67B4E2A8AE0CE004D13E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49C67B4D2A8AE0CE004D13E2 /* Assets.xcassets */; };
 		49C67B512A8AE0CE004D13E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49C67B4F2A8AE0CE004D13E2 /* LaunchScreen.storyboard */; };
 		49C67B5C2A8AE0CF004D13E2 /* MeusAtivosB3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49C67B5B2A8AE0CF004D13E2 /* MeusAtivosB3Tests.swift */; };
@@ -36,11 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490CABF52A95251A00571A32 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		49A6B1CD2A9676F200F1A59D /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		49A6B1CF2A96770F00F1A59D /* CurrentDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDataModel.swift; sourceTree = "<group>"; };
+		49A6B1D12A9679BF00F1A59D /* GlobalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalModel.swift; sourceTree = "<group>"; };
+		49A6B1D32A967AE700F1A59D /* GraphicDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicDataModel.swift; sourceTree = "<group>"; };
+		49A6B1D52A967B0F00F1A59D /* MarketChartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketChartModel.swift; sourceTree = "<group>"; };
+		49A6B1DC2A96814C00F1A59D /* CoinAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinAPI.swift; sourceTree = "<group>"; };
+		49A6B1DE2A9681A500F1A59D /* StockExchangeAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockExchangeAPI.swift; sourceTree = "<group>"; };
 		49C67B412A8AE0CB004D13E2 /* MeusAtivosB3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeusAtivosB3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C67B442A8AE0CB004D13E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49C67B462A8AE0CB004D13E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		49C67B482A8AE0CB004D13E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		49C67B4B2A8AE0CB004D13E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49C67B482A8AE0CB004D13E2 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		49C67B4D2A8AE0CE004D13E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49C67B502A8AE0CE004D13E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49C67B522A8AE0CE004D13E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				490CABF22A95201100571A32 /* TinyConstraints in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +90,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490CABED2A951D0000571A32 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		490CABEE2A951D0900571A32 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				490CABF82A955E1500571A32 /* Custom Views */,
+				490CABF72A955DE600571A32 /* Scenes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		490CABEF2A951E0700571A32 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				49A6B1CD2A9676F200F1A59D /* CoinModel.swift */,
+				49A6B1CF2A96770F00F1A59D /* CurrentDataModel.swift */,
+				49A6B1D12A9679BF00F1A59D /* GlobalModel.swift */,
+				49A6B1D32A967AE700F1A59D /* GraphicDataModel.swift */,
+				49A6B1D52A967B0F00F1A59D /* MarketChartModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		490CABF72A955DE600571A32 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				49C67B482A8AE0CB004D13E2 /* HomeViewController.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		490CABF82A955E1500571A32 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				490CABF52A95251A00571A32 /* HomeView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		49A6B1D72A967EEA00F1A59D /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				49A6B1D82A967EFC00F1A59D /* NetworkRepositoryManager */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		49A6B1D82A967EFC00F1A59D /* NetworkRepositoryManager */ = {
+			isa = PBXGroup;
+			children = (
+				49A6B1DB2A9680EC00F1A59D /* API */,
+				49A6B1DA2A9680E500F1A59D /* Router */,
+				49A6B1D92A9680D900F1A59D /* Store */,
+			);
+			path = NetworkRepositoryManager;
+			sourceTree = "<group>";
+		};
+		49A6B1D92A9680D900F1A59D /* Store */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		49A6B1DA2A9680E500F1A59D /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		49A6B1DB2A9680EC00F1A59D /* API */ = {
+			isa = PBXGroup;
+			children = (
+				49A6B1DC2A96814C00F1A59D /* CoinAPI.swift */,
+				49A6B1DE2A9681A500F1A59D /* StockExchangeAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		49C67B382A8AE0CB004D13E2 = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +198,11 @@
 		49C67B432A8AE0CB004D13E2 /* MeusAtivosB3 */ = {
 			isa = PBXGroup;
 			children = (
+				49A6B1D72A967EEA00F1A59D /* DataProvider */,
+				490CABEF2A951E0700571A32 /* ViewModel */,
+				490CABEE2A951D0900571A32 /* Views */,
+				490CABED2A951D0000571A32 /* Model */,
 				49C67B442A8AE0CB004D13E2 /* AppDelegate.swift */,
-				49C67B462A8AE0CB004D13E2 /* SceneDelegate.swift */,
-				49C67B482A8AE0CB004D13E2 /* ViewController.swift */,
-				49C67B4A2A8AE0CB004D13E2 /* Main.storyboard */,
 				49C67B4D2A8AE0CE004D13E2 /* Assets.xcassets */,
 				49C67B4F2A8AE0CE004D13E2 /* LaunchScreen.storyboard */,
 				49C67B522A8AE0CE004D13E2 /* Info.plist */,
@@ -143,6 +243,9 @@
 			dependencies = (
 			);
 			name = MeusAtivosB3;
+			packageProductDependencies = (
+				490CABF12A95201100571A32 /* TinyConstraints */,
+			);
 			productName = MeusAtivosB3;
 			productReference = 49C67B412A8AE0CB004D13E2 /* MeusAtivosB3.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +318,9 @@
 				Base,
 			);
 			mainGroup = 49C67B382A8AE0CB004D13E2;
+			packageReferences = (
+				490CABF02A95201100571A32 /* XCRemoteSwiftPackageReference "TinyConstraints" */,
+			);
 			productRefGroup = 49C67B422A8AE0CB004D13E2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +339,6 @@
 			files = (
 				49C67B512A8AE0CE004D13E2 /* LaunchScreen.storyboard in Resources */,
 				49C67B4E2A8AE0CE004D13E2 /* Assets.xcassets in Resources */,
-				49C67B4C2A8AE0CB004D13E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +363,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49C67B492A8AE0CB004D13E2 /* ViewController.swift in Sources */,
+				49A6B1D62A967B0F00F1A59D /* MarketChartModel.swift in Sources */,
+				49A6B1DD2A96814C00F1A59D /* CoinAPI.swift in Sources */,
+				49A6B1CE2A9676F200F1A59D /* CoinModel.swift in Sources */,
+				490CABF62A95251A00571A32 /* HomeView.swift in Sources */,
+				49A6B1D42A967AE700F1A59D /* GraphicDataModel.swift in Sources */,
+				49A6B1D22A9679BF00F1A59D /* GlobalModel.swift in Sources */,
+				49C67B492A8AE0CB004D13E2 /* HomeViewController.swift in Sources */,
+				49A6B1D02A96770F00F1A59D /* CurrentDataModel.swift in Sources */,
+				49A6B1DF2A9681A500F1A59D /* StockExchangeAPI.swift in Sources */,
 				49C67B452A8AE0CB004D13E2 /* AppDelegate.swift in Sources */,
-				49C67B472A8AE0CB004D13E2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +409,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49C67B4A2A8AE0CB004D13E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				49C67B4B2A8AE0CB004D13E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		49C67B4F2A8AE0CE004D13E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,11 +543,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeusAtivosB3/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,9 +554,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BrunoDev.MeusAtivosB3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,11 +572,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MeusAtivosB3/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +583,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = BrunoDev.MeusAtivosB3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -596,6 +704,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		490CABF02A95201100571A32 /* XCRemoteSwiftPackageReference "TinyConstraints" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/roberthein/TinyConstraints";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		490CABF12A95201100571A32 /* TinyConstraints */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 490CABF02A95201100571A32 /* XCRemoteSwiftPackageReference "TinyConstraints" */;
+			productName = TinyConstraints;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 49C67B392A8AE0CB004D13E2 /* Project object */;
 }

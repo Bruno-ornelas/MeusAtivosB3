@@ -9,28 +9,113 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-
+    
+    var window: UIWindow?
+        
+        func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+            window = UIWindow(frame: UIScreen.main.bounds)
+            window?.makeKeyAndVisible()
+            window?.backgroundColor = .white
+            window?.rootViewController = UINavigationController(rootViewController: HomeViewController())
+            
+            return true
+        }
 
 }
 
+
+
+//// MARK: - COMPONENTS
+//    let titleLabel: UILabel = UILabel()
+//    let loginView: UIView = UIView()
+//    let nameTextField: UIView = UITextField()
+//
+//    // MARK: - LIFECYCLE
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//        setup()
+//        layout()
+//    }
+//
+//    // MARK: - FUNCTIONS
+//    func setup() {
+//        titleLabel.text = "Login"
+//
+//        loginView.backgroundColor = .cyan
+//
+//        nameTextField.back
+//// MARK: - COMPONENTS
+//    let titleLabel: UILabel = UILabel()
+//    let loginView: UIView = UIView()
+//    let nameTextField: UIView = UITextField()
+
+//// MARK: - LIFECYCLE
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//        setup()
+//        layout()
+//    }
+
+
+//// MARK: - FUNCTIONS
+//    func setup() {
+//        titleLabel.text = "Login"
+//
+//        loginView.backgroundColor = .cyan
+//
+//        nameTextField.backgroundColor = .red
+//
+//        view.backgroundColor = .systemBackground
+//    }
+
+
+//func layout() {
+//        view.addSubview(titleLabel)
+//        view.addSubview(loginView)
+//        loginView.addSubview(nameTextField)
+//
+//        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+//        loginView.translatesAutoresizingMaskIntoConstraints = false
+//        nameTextField.translatesAutoresizingMaskIntoConstraints = false
+
+
+// MARK: - LIFECYCLE
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//        setup()
+//        layout()
+//    }
+//// MARK: - FUNCTIONS
+//    func setup() {
+//        titleLabel.text = "Login"
+//
+//        loginView.backgroundColor = .cyan
+//
+//        nameTextField.backgroundColor = .red
+//
+//        view.backgroundColor = .systemBackground
+//    }
+//func layout() {
+//        view.addSubview(titleLabel)
+//        view.addSubview(loginView)
+//        loginView.addSubview(nameTextField)
+//
+//        titleLabel.translatesAutoresizingMaskIntoConstraints = false
+//        loginView.translatesAutoresizingMaskIntoConstraints = false
+//        nameTextField.translatesAutoresizingMaskIntoConstraints = false
+//titleLabel.topAnchor.constraint(equalTo: view.topAnchor, constant: 150).isActive = true
+//        titleLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//
+//        loginView.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 50).isActive = true
+//        loginView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//loginView.heightAnchor.constraint(equalToConstant: 200).isActive = true
+//        loginView.widthAnchor.constraint(equalToConstant: 300).isActive = true
+//
+//        nameTextField.topAnchor.constraint(equalTo: loginView.topAnchor, constant: 30).isActive = true
+//nameTextField.centerXAnchor.constraint(equalTo: loginView.centerXAnchor).isActive = true
+//        nameTextField.heightAnchor.constraint(equalToConstant: 40).isActive = true
+//        nameTextField.widthAnchor.constraint(equalToConstant: 200).isActive = true
+//}
