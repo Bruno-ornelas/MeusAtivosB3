@@ -19,7 +19,7 @@ class HomeView: UIView {
         config.cornerStyle = .small
         
         let btn = UIButton(configuration: config)
-        btn.addTarget(<#T##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
+       // btn.addTarget(<#T##Any?#>, action: <#T##Selector#>, for: <#T##UIControl.Event#>)
         return btn
     }()
     
