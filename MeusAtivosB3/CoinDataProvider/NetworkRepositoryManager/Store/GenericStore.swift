@@ -30,7 +30,7 @@ class GenericStoreRequest: GenericStoreProtocol {
             
             do {
                 let decoder = JSONDecoder()
-                decoder.dateDecodingStrategy = .iso8601
+                decoder.dateDecodingStrategy = .formatted(Formatter.iso8601)
                 
                 let object = try decoder.decode(T.self, from: data)
                 completion(object, nil)
